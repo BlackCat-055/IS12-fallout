@@ -4,7 +4,7 @@
 	#include "jobs/commissar_verbs.dm"
 	#include "jobs/warhammer_jobs.dm"
 	#include "jobs/guard.dm"
-	#include "jobs/guardsmen.dm"
+	#include "jobs/ncra.dm"
 	#include "../shared/items/clothing.dm"
 	#include "../shared/items/cards_ids.dm"
 

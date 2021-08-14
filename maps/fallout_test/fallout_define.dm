@@ -15,9 +15,9 @@
 	lobby_icon = 'maps/warhammer/fullscreen.dmi'
 	lobby_screens = list("lobby1","lobby2","lobby3","lobby4","lobby5", "lobby6")
 
-	station_levels = list(1,2,3,4)
-	contact_levels = list(1,2,3,4)
-	player_levels = list(1,2,3,4)
+	station_levels = list(1,2,3)
+	contact_levels = list(1,2,3)
+	player_levels = list(1,2,3)
 
 	allowed_spawns = list("Arrivals Shuttle")
 	base_turf_by_z = list("1" = /turf/simulated/floor/dirty, "2" = /turf/simulated/floor/dirty, "3" = /turf/simulated/floor/dirty,"4" = /turf/simulated/floor/dirty)
