@@ -8,7 +8,7 @@
 	/datum/job/inquisitor,
 	/datum/job/ig/commissar,
 	/datum/job/ig/sergeant,
-	/datum/job/guardsman,
+	/datum/job/ncr_trooper,
 	/datum/job/cmo,
 	/datum/job/doctor,
 	/datum/job/Paramedic,
