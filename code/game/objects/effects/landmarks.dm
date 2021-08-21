@@ -155,6 +155,9 @@ Template:
 	name = "Enforcer"
 /obj/effect/landmark/start/ig
 	name = "Imperial Guardsman"
+/obj/effect/landmark/start/ncrt
+	name = "NCR Trooper"
+
 //Engineering//
 
 
