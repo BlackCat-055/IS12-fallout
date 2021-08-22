@@ -23,14 +23,14 @@
 			            )
 
 	equip(var/mob/living/carbon/human/H)
-		H.warfare_faction = IMPERIUM
+		H.warfare_faction = NCRA
 		..()
 		H.add_stats(rand(12,16), rand(10,16), rand(8,14), rand (8,11))
 		H.add_skills(rand(10,16))
 		H.warfare_language_shit(LANGUAGE_LOW_GOTHIC )
 		SSwarfare.red.team += H
 		if(can_be_in_squad)
-			H.assign_random_squad(IMPERIUM)
+			H.assign_random_squad(NCRA)
 		H.fully_replace_character_name("Trooper [H.real_name]")
 		H.assign_random_quirk()
 		H.witchblood()
@@ -74,8 +74,8 @@
 		H.witchblood()
 		H.warfare_language_shit(LANGUAGE_LOW_GOTHIC )
 		H.get_idcard()?.access = list(access_security, access_sec_doors, access_brig, access_forensics_lockers, access_all_personal_lockers, access_maint_tunnels, access_guard_armory)
-		H.assign_squad_leader(IMPERIUM)
-		H.warfare_faction = IMPERIUM
+		H.assign_squad_leader(NCRA)
+		H.warfare_faction = NCRA
 		H.fully_replace_character_name("Sgt. [current_name]")
 		to_chat(H, "<span class='notice'><b><font size=3>You are a Sergeant of the Imperial Guard. Round up some guardsmen and construct your own squad. You are to be a beacon of discipline and order amongst your men, let your behavior reflect this.</font></b></span>")
 		H.verbs += list(
@@ -116,7 +116,7 @@
 		H.add_skills(rand(14,18))
 		H.warfare_language_shit(LANGUAGE_LOW_GOTHIC )
 		H.get_idcard()?.access = get_all_accesses()
-		H.warfare_faction = IMPERIUM
+		H.warfare_faction = NCRA
 		to_chat(H, "<span class='notice'><b><font size=3>You are an Imperial Commissar. You are the acting head of the Guard force on this planet. The mission is all, maintain morale and maintain discipline. Do not be afraid to execute an unruly guardsmen. </font></b></span>")
 
 		var/obj/O = H.get_equipped_item(slot_s_store)
@@ -166,7 +166,7 @@
 		H.assign_random_quirk()
 		H.witchblood()
 		H.warfare_language_shit(LANGUAGE_LOW_GOTHIC )
-		H.warfare_faction = IMPERIUM
+		H.warfare_faction = NCRA
 		H.get_idcard()?.access = list(access_security, access_sec_doors, access_brig, access_forensics_lockers, access_all_personal_lockers, access_maint_tunnels,)
 		H.verbs += list(
 		/mob/living/carbon/human/proc/khorne,
