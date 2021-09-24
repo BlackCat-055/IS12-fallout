@@ -226,12 +226,10 @@
 	cold_protection = UPPER_TORSO | LOWER_TORSO | LEGS | FEET | ARMS | HANDS
 	min_cold_protection_temperature = SPACE_SUIT_MIN_COLD_PROTECTION_TEMPERATURE
 
-//Fallout shit
-
-/obj/item/clothing/under/rank/ncr
-    name = "NCR stalker fatigues"
-    desc = "Fatigue's worn by Enlisted members of the NCR its topped with a flak jacket for armor"
-    icon_state = "ncr_uniform"
-    item_state = "ncr_uniform"
-    worn_state = "ncr_uniform"
-    armor = list(melee = 10, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0)
+/obj/item/clothing/under/ncr_uniform
+	name = "NCR trooper uniform"
+	desc = "The uniform of those who fight for the NCR."
+	icon_state = "ncr_uniform"
+	item_state = "ncr_uniform"
+	cold_protection = UPPER_TORSO | LOWER_TORSO | LEGS | FEET | ARMS | HANDS
+	min_cold_protection_temperature = SPACE_SUIT_MIN_COLD_PROTECTION_TEMPERATURE

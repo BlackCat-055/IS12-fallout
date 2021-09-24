@@ -282,14 +282,4 @@
 
 
 
-//fallout shit
 
-
-/obj/item/clothing/head/helmet/steelpot
-	name = "NCR steelpot helmet"
-	desc = "A helmet with  plating to protect against ballistic projectiles it might just save your life might not we shall see."
-	icon_state = "ncr_steelpot"
-	item_state = "ncr_steelpot"
-	valid_accessory_slots = null
-	armor = list(melee = 5, bullet = 82, laser = 30, energy = 5, bomb = 30, bio = 2, rad = 0)
-	siemens_coefficient = 0.7
