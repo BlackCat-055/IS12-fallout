@@ -392,10 +392,6 @@
 #define TAU "Tau"
 #define TYRANIDS "Tyranids"
 
-//fallout factions
-#define NCRA "New California Republic"
-#define LEGION "Kaisers legion"
-
 /*
 #define SKILL_LOW(x) x<=4
 
