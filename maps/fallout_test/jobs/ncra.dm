@@ -1,6 +1,6 @@
-/datum/job/ncr_trooper
-	title = "NCR trooper"
-	supervisors = "The Sergeant and the commander."
+/datum/job/guardsman
+	title = "Imperial Guardsman"
+	supervisors = "The Commissar and your Sergeant."
 	total_positions = 20
 	spawn_positions = 20
 	social_class = SOCIAL_CLASS_MED //Guards are at least pretty respected in imperial society
@@ -35,9 +35,13 @@
 		H.assign_random_quirk()
 		H.witchblood()
 		H.get_idcard()?.access = list(access_security, access_sec_doors, access_brig, access_forensics_lockers, access_all_personal_lockers, access_maint_tunnels,)
-		to_chat(H, "<span class='notice'><b><font size=3>You are a soldier of the NCR. Obey your Sergeant and Commander. God bless the Republic. </font></b></span>")
+		to_chat(H, "<span class='notice'><b><font size=3>You are a soldier of the Imperium. Obey your Sergeant and Commissar. The Emperor Protects. </font></b></span>")
 		H.verbs += list(
-		/mob/living/carbon/human/proc/regimentselection)
+		/mob/living/carbon/human/proc/khorne,
+		/mob/living/carbon/human/proc/nurgle,
+		/mob/living/carbon/human/proc/slaanesh,
+		/mob/living/carbon/human/proc/tzeentch,
+		/mob/living/carbon/human/proc/regimentselection,)
 
 /datum/job/ig/sergeant
 	title = "Sergeant"
