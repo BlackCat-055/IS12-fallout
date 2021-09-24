@@ -225,11 +225,3 @@
 	item_state = "guard"
 	cold_protection = UPPER_TORSO | LOWER_TORSO | LEGS | FEET | ARMS | HANDS
 	min_cold_protection_temperature = SPACE_SUIT_MIN_COLD_PROTECTION_TEMPERATURE
-
-/obj/item/clothing/under/ncr_uniform
-	name = "NCR trooper uniform"
-	desc = "The uniform of those who fight for the NCR."
-	icon_state = "ncr_uniform"
-	item_state = "ncr_uniform"
-	cold_protection = UPPER_TORSO | LOWER_TORSO | LEGS | FEET | ARMS | HANDS
-	min_cold_protection_temperature = SPACE_SUIT_MIN_COLD_PROTECTION_TEMPERATURE
